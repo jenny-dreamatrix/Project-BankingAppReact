@@ -1,0 +1,73 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../src/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  src: url(../src/fonts/Roboto-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-accent: #49c6a5;
+  --color-light: #b6ecdd;
+}
+
+h1,
+h3,
+h4 {
+  font-family: "RobotoMedium";
+}
+
+h2,
+p,
+button,
+input,
+label {
+  font-family: "RobotoRegular";
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+p,
+label,
+input {
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  height: 70rem;
+  width: 40rem;
+  border-radius: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  padding: 3rem;
+  margin: 1rem auto 0 auto;
+}
